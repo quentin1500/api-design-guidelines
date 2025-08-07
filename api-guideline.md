@@ -1,6 +1,6 @@
 # General guidelines
 #### 🔴 MUST follow API REST Design Principles
-<<🔃 Client>> produces REST APIs.
+<<🔀 Client>> produces REST APIs.
 
 For 95% of the API designed, we apply the RESTful web service principles to all kind of application service components.
 They may be marginal API (the other 5%) that are designed another way to cover specific use-cases (GraphQL, gRPC, SOAP, ...)
@@ -131,10 +131,10 @@ GetHeadUserNotifications
 API must secure their endpoints by validating the Access Token provided in the request.
 
 This Access Token is:
-- Issued by <🔃 to be completed in each client context>
+- Issued by <🔀 to be completed in each client context>
 - Provided by the client consumer in the `Authorization` request header
 
-The Access Token may be: <🔃>
+The Access Token may be: <🔀>
 - in [**JWT** (JSON Web Token) format](https://jwt.io/). Major advantage is the token is self-carrying, meaning it doesn't need the authorisation serveur for its introspection (validity check)
 - in **opaque** format. Major advantage is the opacity, meaning the identifications and authorizations remain secrets.
 - both
@@ -751,7 +751,7 @@ These headers together help clients and intermediaries understand how to cache t
 #### 🟡 SHOULD support pagination (when necessary)
 To ensure optimal performance and prevent service overload, it is essential to implement pagination for data item lists. Pagination not only safeguards the service but also enhances client-side iteration and batch processing. This practice is particularly crucial for lists containing a substantial number of entries, exceeding just a few hundred.
 
-The default way to perform in <<🔃 Client>> is:
+The default way to perform in <<🔀 Client>> is:
 - **Page-base pagination**, described in the next section
 
 Less recommended methods includes:
