@@ -47,6 +47,19 @@ Some iteration may be closed by the following string `=== end of propositions ==
 
 ---
 
+## 👓 Read the Guidelines
+
+The CAPITALIZED words throughout these guidelines have a special meaning:
+```
+      The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+      NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
+      "OPTIONAL" in this document are to be interpreted as described in
+      RFC 2119.
+```
+Refer to [RFC2119](https://www.rfc-editor.org/rfc/rfc2119) for details.
+
+---
+
 ## ✍️ Contributing
 
 Contributions are welcome!  
