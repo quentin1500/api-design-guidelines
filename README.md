@@ -6,9 +6,11 @@ This repository contains the reference guidelines for API design and documentati
 
 ---
 
-## 🚀 Purpose
+## 🧭 Purpose
 
-This guideline aims to:
+This [generic API guideline document](./api-guideline.md) is intended to serve as a reference for API design within the context of an API-producing company or program. To suit this context, the generic guideline must be adapted. Refer to the [Deployement section](#deployment).
+
+These guidelines aim to:
 
 - Harmonize API design across a generic ecosystem
 - Improve API readability, maintainability, and interoperability
@@ -32,6 +34,16 @@ The `api-guideline.md` document includes:
 - API versioning and lifecycle management
 
 It is all in human readable language (english).
+
+---
+
+## 🚀 Deployment
+
+The [generic API guideline document](./api-guideline.md) must be adapted to fit its context.
+
+Each iteration of the `🔀` emoji in the file indicates a choice or input to be made by the person(s) in charge of the API Design Authority. Some of those may go with comments that should be removed.
+
+Some iteration may be closed by the following string `=== end of propositions ===`. It must be removed as well.
 
 ---
 
